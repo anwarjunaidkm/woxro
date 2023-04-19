@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className=" h-screen w-full  bg-[#000000]  text-gray-300 ">
       <div className="max-w-[1200px] mx-auto bg-slate-500  flex flex-col  w-full h-full">
-        {/* <div className="  hidden md:block  w-full h-[35px]  md:flex  justify-between items-center px-4 bg-[#000000]  text-gray-300"> */}
+        <div className="  hidden md:block  w-full h-[35px]  md:flex  justify-between items-center px-4 bg-[#000000]  text-gray-300">
           <p className="text-[14px]">
             {" "}
             <span className="font-bold">Now Hiring</span>: Looking for a job in
@@ -40,14 +40,14 @@ const Navbar = () => {
           </ul>
         </div>
         <div className='relative flex justify-center '>
-          {/* <img
+           <img
             className="h-[80%] w-full brightness-50 "
             src={bannerpic}
             alt=""
-          /> */}
+          /> 
           
 
-          {/* <h1 className='absolute top-0' >Kerala's Leading Web <br /> Design Company</h1> */}
+          <h1 className='absolute top-0' >Kerala's Leading Web <br /> Design Company</h1>
           
         </div>
       </div>
