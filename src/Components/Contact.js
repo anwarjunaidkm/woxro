@@ -1,5 +1,6 @@
 import React from 'react'
 import { woxroglobe } from './image/image'
+import {BsTelephoneFill, BsChatFill} from 'react-icons/bs'
 
 const Contact = () => {
   return (
@@ -16,10 +17,9 @@ const Contact = () => {
             <div className='mx-4'>
 
             <button class="bg-transparent m-3 px-8 hover:bg-white text-white font-semibold hover:text-black py-3  border border-white    hover:border-transparent rounded">
-              Button
-            </button>
+            <BsTelephoneFill  className='inline-block gap-2' />   Contact us            </button>
             <button class="bg-transparent  m-3 px-8 hover:bg-white text-white font-semibold hover:text-black py-3  border border-white    hover:border-transparent rounded">
-              Button
+            <BsChatFill className='inline-block' />   Let's Talk
             </button>
             </div>
            
