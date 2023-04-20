@@ -8,9 +8,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Banner />
+
+
+      {/* <Banner />
       <Service />
-      <Contact />
+      <Contact /> */}
       
       
     </div>

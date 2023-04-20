@@ -4,7 +4,7 @@ import { digitalmarketing, ecommercedevelopment, graphic, mobileappdevelopment, 
 const Service = () => {
   return (
     <div className=" w-full bg-[#000000] text-black">
-          <div className="max-w-[1200px] mx-auto bg-white flex  flex-col h-full w-full">
+          <div className="max-w-[1200px] mx-auto bg-white flex pb-8 flex-col h-full w-full">
             {/* <div className='flex justify-center flex-col items-center  p-11     '>
                 <h4  className='my-5 font-bold tracking-wide '>SERVICES WE DELIVER</h4>
                 <h1 className='text-4xl font-bold  ' >
@@ -23,7 +23,7 @@ const Service = () => {
 </div>
 
 
-<div class="container mx-auto">
+<div class="container mx-auto " >
   <div class="grid grid-cols-1 p-3 md:grid-cols-2 lg:grid-cols-3 gap-2">
 
 
